@@ -8,11 +8,11 @@ URL_ABSEN = "https://student.sekolahan.id/"
 URL_LOGIN = "https://student.sekolahan.id/login"
 
 # Cookie login yang sudah kamu miliki
-cookies = {
-    "_ga_RK58RM9LJ2": "GS1.2.1723733070.1.0.1723733070.0.0.0",  # Sesuaikan nama dan nilai cookie
-    "_ga": "GA1.1.541079114.1723733070",
-    "G_ENABLED_IDPS": "google", 
-    "_ga_PMQHBDYVCC": "GS1.1.1730537849.7.1.1730538679.0.0.0", 
+cookies = { 
+    "nama cookie1": "value_cookie1", 
+    "nama cookie2": "value_cookie2", 
+    "nama cookie3": "value_cookie3", 
+    "nama cookie4": "value_cookie4", 
 }
 
 # Buat sesi dengan cookie
