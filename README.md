@@ -40,3 +40,7 @@ Untuk menjalankan kode ini di Termux, Anda perlu menginstal Python serta library
    python absen-sc.py
    ```
 3. Skrip akan memeriksa waktu setiap 30 detik untuk memastikan bahwa absensi dilakukan tepat waktu sesuai jadwal.
+
+   NOTE tambahan:
+   ini hanya berfungsi untuk web student.sekolahan.id
+    jangan lupa ganti cookie pada code python tersebut dan untuk mengetahui cookie banyak tutorial dari youtube
