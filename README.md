@@ -25,6 +25,7 @@ Ikuti langkah-langkah berikut untuk mengatur script ini:
 Clone repository proyek ini dengan perintah:
 
 ```bash
+pkg install git
 git clone https://github.com/Zourryy/Auto-absen
 ```
 
