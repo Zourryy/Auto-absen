@@ -19,7 +19,7 @@ Ikuti langkah-langkah berikut untuk mengatur script ini:
 2. **Install Python**  
    Buka Termux dan ketikkan perintah berikut:  
    ```bash
-   pkg install python
+   pkg install python -y
 
 3. Clone repository
 Clone repository proyek ini dengan perintah:
@@ -34,7 +34,7 @@ termux-setup-storage
 
 
 5. Perbarui dan tingkatkan paket Termux
-Jalankan perintah berikut:
+Jalankan perintah berikut untuk memastikan sistem up-to-date:
 
 yes | pkg update -y && yes | pkg upgrade -y
 
@@ -46,7 +46,7 @@ yes | pkg install python-pip -y
 
 
 7. Install Selenium
-Pasang Selenium versi 4.9.1:
+Pasang Selenium versi 4.9.1 menggunakan pip:
 
 pip install selenium==4.9.1
 
@@ -62,11 +62,17 @@ yes | pkg install chromium -y
 
 Penjelasan Singkat
 
-Selenium digunakan untuk mengontrol browser dan melakukan otomatisasi pada halaman web absensi.
+pkg install python -y: Memasang Python ke dalam Termux untuk menjalankan script Python.
 
-Chromium adalah browser yang digunakan Selenium untuk melakukan tugas ini dalam mode headless.
+git clone: Mengunduh repository script dari GitHub.
 
-Perintah di atas memastikan semua dependensi dipasang dan sistem diperbarui.
+termux-setup-storage: Mengizinkan Termux mengakses penyimpanan perangkat.
+
+pkg update && pkg upgrade: Memastikan semua paket di Termux diperbarui ke versi terbaru.
+
+pip install selenium: Memasang pustaka Selenium versi tertentu.
+
+pkg install chromium: Memasang browser Chromium yang digunakan oleh Selenium untuk otomatisasi.
 
 
 Cara Menjalankan Script
@@ -85,9 +91,9 @@ python absen.py
 
 Nama sekolah (misalnya: SMKN 3 Kuningan)
 
-Username akun sekolahan.id
+Username akun sekolah
 
-Password akun sekolahan.id
+Password akun sekolah
 
 
 Setelah itu, script akan secara otomatis melakukan proses absensi sesuai dengan jadwal yang ditentukan.
