@@ -27,5 +27,4 @@
 | 9    | <pre><code>yes \| pkg install python-pip -y</code></pre>              |
 | 10   | Install selenium                                                      |
 | 11   | <pre><code>pip install selenium==4.9.1</code></pre>                   |
-| 12   | **_PLEASE MAKE SURE YOUR SELENIUM VERSION <= 4.9.1_**                 |
 
