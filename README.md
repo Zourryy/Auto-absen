@@ -24,40 +24,47 @@ Ikuti langkah-langkah berikut untuk mengatur script ini:
 3. Clone repository
 Clone repository proyek ini dengan perintah:
 
+```bash
 git clone https://github.com/Zourryy/Auto-absen
+```
 
 
 4. Izinkan akses penyimpanan di Termux
 Jalankan perintah berikut untuk mengizinkan Termux mengakses penyimpanan perangkat:
 
+```bash
 termux-setup-storage
-
+```
 
 5. Perbarui dan tingkatkan paket Termux
 Jalankan perintah berikut untuk memastikan sistem up-to-date:
 
+```bash
 yes | pkg update -y && yes | pkg upgrade -y
-
+```
 
 6. Install pip
 Pasang Python package manager dengan perintah berikut:
 
+```bash
 yes | pkg install python-pip -y
-
+```
 
 7. Install Selenium
 Pasang Selenium versi 4.9.1 menggunakan pip:
 
+```bash
 pip install selenium==4.9.1
-
+```
 
 8. Pasang Chromium dan dependensi lainnya
 Install repository tambahan dan browser Chromium:
 
+```bash
 yes | pkg install x11-repo -y
 yes | pkg install tur-repo -y
 yes | pkg install chromium -y
-
+```
 
 
 Penjelasan Singkat
@@ -79,13 +86,14 @@ Cara Menjalankan Script
 
 1. Masuk ke direktori script:
 
+```
 cd Auto-absen
-
+```
 
 2. Jalankan script Python:
-
+```
 python absen.py
-
+```
 
 3. Masukkan informasi yang diperlukan ketika diminta:
 
