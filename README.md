@@ -93,17 +93,20 @@ cd Auto-absen
 
 2. Jalankan script Python:
 ```
-python absen.py
+python account.py
 ```
 
 3. Masukkan informasi yang diperlukan ketika diminta:
-4. contoh
+   contoh:
 
 Nama sekolah :SMKN 3 Kuningan
 
 Username akun sekolah:(biasanya username akun sekolahan id di ambil dari NISN)
 
 Password akun sekolah:(password biasanya tahun/bulan/tanggal lahir exmp (yy/mm/dd))
+(NOTE:untuk skrip account.py hanya untuk mengubah username password dan nama sekolah dan tidak perlu di jalankan berulang kali)
 
-
-Setelah itu, script akan secara otomatis melakukan proses absensi sesuai dengan jadwal yang ditentukan.
+Setelah itu jalan kan script
+```
+python absen.py
+```
