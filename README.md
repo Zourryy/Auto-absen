@@ -96,12 +96,13 @@ python absen.py
 ```
 
 3. Masukkan informasi yang diperlukan ketika diminta:
+4. contoh
 
-Nama sekolah (misalnya: SMKN 3 Kuningan)
+Nama sekolah :SMKN 3 Kuningan
 
-Username akun sekolah
+Username akun sekolah:(biasanya username akun sekolahan id di ambil dari NISN)
 
-Password akun sekolah
+Password akun sekolah:(password biasanya tahun/bulan/tanggal lahir exmp (yy/mm/dd))
 
 
 Setelah itu, script akan secara otomatis melakukan proses absensi sesuai dengan jadwal yang ditentukan.
