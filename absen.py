@@ -14,11 +14,11 @@ def jalankan_absen_pulang():
     os.system("python absen_pulang.py")
 
 # Atur jadwal dari Senin hingga Jumat
-schedule.every().monday.at("06:50").do(jalankan_absen_masuk)
-schedule.every().tuesday.at("06:50").do(jalankan_absen_masuk)
-schedule.every().wednesday.at("06:50").do(jalankan_absen_masuk)
-schedule.every().thursday.at("06:50").do(jalankan_absen_masuk)
-schedule.every().friday.at("06:50").do(jalankan_absen_masuk)
+schedule.every().monday.at("06:40").do(jalankan_absen_masuk)
+schedule.every().tuesday.at("06:40").do(jalankan_absen_masuk)
+schedule.every().wednesday.at("06:40").do(jalankan_absen_masuk)
+schedule.every().thursday.at("06:40").do(jalankan_absen_masuk)
+schedule.every().friday.at("06:40").do(jalankan_absen_masuk)
 
 schedule.every().monday.at("16:00").do(jalankan_absen_pulang)
 schedule.every().tuesday.at("15:15").do(jalankan_absen_pulang)
